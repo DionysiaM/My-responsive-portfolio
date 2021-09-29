@@ -1,6 +1,35 @@
+.hero {
+  text-align: center;
+  padding: 30px;
+  margin: 30px;
+  background-color: rgb(241, 238, 238);
+}
+
 h1 {
   font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 30px;
 }
 h2 {
   font-family: "Poppins", sans-serif;
+}
+
+.img-fluid {
+  max-width: 10%;
+  margin: 0 auto;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  color: blue;
+}
+
+.row {
+  text-align: center;
+}
+
+.col {
+  margin: 2px;
+  padding: 2px;
 }
