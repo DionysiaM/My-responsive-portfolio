@@ -14,7 +14,7 @@ h2 {
   font-family: "Poppins", sans-serif;
 }
 
-.img-fluid {
+.lets-code-img {
   max-width: 10%;
   margin: 0 auto;
   display: block;
@@ -32,4 +32,8 @@ footer {
 .col {
   margin: 2px;
   padding: 2px;
+}
+
+.flowery-queen-img {
+  max-width: 50%;
 }
