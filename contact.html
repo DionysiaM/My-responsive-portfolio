@@ -46,28 +46,22 @@
             </div>
         </div>
     </nav>
-    <h1>Contact me</h1>
-
-    <form class="was-validated">
-        <div class="mb-3">
-            <label for="validationTextarea" class="form-label">Text area</label>
-            <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example text area"
-                required></textarea>
-            <div class="invalid-feedback">
-                Please enter a message in the text area.
-            </div>
+    <div class="form-container">
+        <div class="sm-3">
+            <label for="exampleFormControlInput1" class="form-label">Name </label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Type your name">
         </div>
-
-        <div class="mb-3">
-            <input type="file" class="form-control" aria-label="file example" required>
-            <div class="invalid-feedback">Example invalid form file feedback</div>
+        <div class="sm-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
-
-        <div class="mb-3">
-            <button class="btn btn-primary" type="submit" disabled>Submit form</button>
+        <div class="sm-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Text area</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-    </form>
-
+        <br>
+        <input class="btn btn-primary" type="submit" value="Submit">
+    </div>
 </body>
 
 </html>
