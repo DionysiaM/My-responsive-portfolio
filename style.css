@@ -1,3 +1,7 @@
+body{
+font-family: 'Sansita Swashed', cursive;
+}
+
 .hero {
   text-align: center;
   padding: 30px;
@@ -16,7 +20,6 @@ h1, h2, h3, h5, h6 {
 }
 
 h1 {
- font-family: 'Sansita Swashed', cursive;
   font-weight: bold;
   font-size: 30px;
   padding-top: 10px;
@@ -25,8 +28,7 @@ h1 {
 }
 
 h2 {
-   font-family: 'Sansita Swashed', cursive;
-   font-size: 25px;
+     font-size: 25px;
    font-weight: 700;
 }
 
@@ -38,6 +40,15 @@ p {
   font-family: 'Sansita Swashed', cursive;
   font-size: 18px;
   opacity: 0.7;
+}
+
+.col-project-pictures {
+  margin: 12px 0;
+}
+
+
+.col-project-pictures p{
+  font-size: 15px;
 }
 
 .lets-code-img {
@@ -52,14 +63,10 @@ p {
   font-size: 15px;
 }
 
-.row-projects{
+.colored-background{
   background-color: rgb(250, 229, 250);
   padding: 30px;
   margin: 30px;
-}
-
-.col-project-pictures {
-  margin: 12px 0;
 }
 
 .images-portfolio {
@@ -75,7 +82,8 @@ footer {
 
 
 a {
-  color: black;
+  color: rgb(53, 2, 50);
+  font-size: 13px;
 }
 
 .form-container{
@@ -87,33 +95,21 @@ font-weight: 600;
 }
 
 
-.about-background{
-  background-color: rgb(250, 229, 250);
-   padding: 30px;
-  margin: 30px;
-}
-
-
 @media (max-width: 576px) {
   h1 {
     font-size: 16px;
   }
-
-  
   .navbar-brand {
     font-size: 15px;
   }
-
   p {
     font-size: 12px;
     font-style: bold;
     opacity: 1;
   }
- 
   .lets-code-img{
     max-width: 30%;
   }
-
   .form-container{
     max-width: 50%;
   }
