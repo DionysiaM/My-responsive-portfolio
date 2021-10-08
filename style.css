@@ -99,8 +99,13 @@ a {
 }
 
 @media (max-width: 576px) {
-  h1 {
-    font-size: 16px;
+  h1,
+  h3 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 18px;
   }
   .navbar-brand {
     font-size: 15px;
@@ -112,5 +117,14 @@ a {
   }
   .lets-code-img {
     max-width: 30%;
+  }
+  .contact-form-container {
+    max-width: 60%;
+  }
+  .form-control {
+    font-size: 14px;
+  }
+  .sm-3 {
+    font-size: 12px;
   }
 }
