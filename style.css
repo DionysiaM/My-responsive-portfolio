@@ -87,6 +87,7 @@ footer {
 a {
   color: rgb(53, 2, 50);
   font-size: 13px;
+  font-style: none;
 }
 
 .contact-form-container {
@@ -96,6 +97,16 @@ a {
   font-weight: 600;
   background-color: rgb(250, 229, 250);
   padding: 8px;
+}
+
+.fab,
+.fa {
+  color: #360558;
+}
+
+.contact-links a {
+  text-decoration: none;
+  font-size: 15px;
 }
 
 @media (max-width: 576px) {
