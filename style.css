@@ -12,8 +12,8 @@ body {
 h1,
 h2,
 h3,
-h5,
-h6 {
+h4,
+h5 {
   background-color: #f3ec78;
   background-image: linear-gradient(20deg, #19058f, #55041b);
   background-size: 100%;
@@ -25,10 +25,11 @@ h6 {
 
 h1 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 27px;
   padding-top: 10px;
   padding-bottom: 8px;
   text-align: center;
+  font-family: monospace;
 }
 
 h2 {
@@ -36,13 +37,28 @@ h2 {
   font-weight: 700;
 }
 
-h5 {
+h3 {
+  font-family: sans-serif;
+}
+
+h4 {
   font-size: 25px;
+  font-family: monospace;
+}
+
+h5 {
+  font-size: 16px;
+  font-family: monospace;
+}
+h6 {
+  text-align: center;
+  font-size: 13px;
 }
 
 p {
-  font-family: "Sansita Swashed", cursive;
-  font-size: 18px;
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 2;
   opacity: 0.7;
 }
 
@@ -69,25 +85,21 @@ p {
 .colored-background {
   background-color: rgb(250, 229, 250);
   padding: 30px;
-  margin: 30px;
+  margin: 30px 30px 0px 30px;
   color: rgb(53, 2, 50);
 }
 
+.about-background {
+  background-color: rgb(250, 229, 250);
+  margin: 0 auto;
+  padding: 10px 50px;
+  color: rgb(53, 2, 50);
+  max-width: 40%;
+}
 .images-portfolio {
   max-width: 65%;
   border-radius: 5px;
   border: 2px solid #b5b6b8;
-}
-
-footer {
-  font-size: 10px;
-  padding-bottom: 10px;
-}
-
-a {
-  color: rgb(53, 2, 50);
-  font-size: 13px;
-  font-style: none;
 }
 
 .contact-form-container {
@@ -97,45 +109,64 @@ a {
   font-weight: 600;
   background-color: rgb(250, 229, 250);
   padding: 8px;
+  font-family: monospace;
 }
 
-.fab,
-.fa {
-  color: #360558;
+.contact-links {
+  margin: 30 8px;
+  color: #370556;
 }
 
 .contact-links a {
-  text-decoration: none;
-  font-size: 15px;
+  color: #370556;
+}
+.row {
+  margin: 5px;
 }
 
 @media (max-width: 576px) {
-  h1,
+  h1 {
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 14px;
+    margin: 0;
+  }
   h3 {
+    font-size: 18px;
+  }
+  h4 {
     font-size: 18px;
   }
 
   h5 {
-    font-size: 18px;
+    font-size: 14px;
   }
+
   .navbar-brand {
     font-size: 15px;
   }
   p {
-    font-size: 12px;
+    font-size: 10px;
     font-style: bold;
     opacity: 1;
+    line-height: 1.5;
   }
   .lets-code-img {
     max-width: 30%;
   }
-  .contact-form-container {
-    max-width: 60%;
-  }
   .form-control {
     font-size: 14px;
   }
-  .sm-3 {
-    font-size: 12px;
+
+  .contact-form-container {
+    max-width: 60%;
+  }
+  .colored-background {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .about-background {
+    max-width: 80%;
   }
 }
